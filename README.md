@@ -1,5 +1,7 @@
 AFAIK there is no 2x16 I2C LCD example for libopencm3 using STM32F4, there is one with FreeRTOS for STM32F1 though.
 
+Currently, the "main.c" file is an example which reads a 24cXX EEPROM's 16 bytes and prints it on the LCD. 
+
 So, here you go!
 
 Check the defines in `lcd.c` and change it accordingly if you want to, default mapping is:
